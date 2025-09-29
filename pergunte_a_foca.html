@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergunte à Foca</title>
+    <link rel="stylesheet" href="css/focastyle.css">
+</head>
+<body>
+<div id="resultadoModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="resultadoTexto"></p>
+  </div>
+</div>
+
+    <header class="site-header">
+        <h1 class="logo">Desafios CJR</h1>
+        <nav class="navbar">
+            <a href="index.html" class="nav-link">Apresentação</a>
+            <a href="foca.html" class="nav-link">Pergunte à Foca</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1 class="page-title">🐟 Pergunte à Foca</h1>
+        
+        <img src="https://images.vexels.com/media/users/3/196070/isolated/preview/9e45491ad61c60a26be0cff0bd275ae8-foca-artica-azul.png" 
+             alt="Foca Ártica Azul" width="200" class="foca-img">
+
+        <p class="instructions">Digite duas opções abaixo e deixe a foca decidir por você:</p>
+
+        <div class="input-container">
+            <input type="text" class="input1" placeholder="Opção 1">
+            <span>ou</span>
+            <input type="text" class="input2" placeholder="Opção 2">
+        </div>
+
+        <button type="button" class="btn" onclick="escolha()">Perguntar</button>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-text">© 2025 Guilherme Negreiros Pereira</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/negreeiros_/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/guin409" target="_blank">
+                <img src="img/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/guilherme-negreiros-179ba8386" target="_blank">
+                <img src="img/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/scriptfoca.js"></script>
+</body>
+</html>
