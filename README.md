@@ -15,7 +15,7 @@ O objetivo foi praticar **HTML, CSS e JavaScript**, explorando organização do 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./docs/img/Guilherme.jpg" width="120" style="border-radius:50%;"><br/>
+      <img src="https://github.com/guin409.png" width="120" style="border-radius:50%;"><br/>
       <sub><b>Guilherme Negreiros Pereira</b></sub><br/>
       Estudante de Engenharia de Software (UnB) <br/>
       <a href="https://www.instagram.com/negreeiros_/">Instagram</a> | 
